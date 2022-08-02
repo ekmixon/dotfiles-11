@@ -12,4 +12,4 @@ while True:
     prev_app = active_app
     active_app = workspace.activeApplication()['NSApplicationName']
     if prev_app != active_app:
-        print( 'Focus changed to: ' + active_app )
+        print(f'Focus changed to: {active_app}')
